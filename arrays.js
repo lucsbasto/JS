@@ -7,4 +7,5 @@ arr.shift();//remove e retorna o primeiro item;
 
 //array.slice(inicio, final)
 console.log(arr.slice(0, 3));//retorna do 1 ao 3 item do array sem modificar o array
+//splice recorta o array e retorna o valor
 

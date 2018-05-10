@@ -8,4 +8,40 @@ function capitalize(string){
 };
 
 
-capitalize('this IS THE wOrst string eVeR');
+function capitalize_(s){
+    return s.toLowerCase().replace(/\b[a-z]/g, function(a){return a.toUpperCase();}); //o parametro 'a' já é o achado pela expressão regular
+};
+
+
+console.log (capitalize('th-is IS THE wOrst string eVeR'));
+console.log (capitalize_('th-is IS THE wOrst string eVeR'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

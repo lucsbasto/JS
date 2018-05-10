@@ -9,12 +9,14 @@ function capitalize(string){
 
 
 function capitalize_(s){
-    return s.toLowerCase().replace(/\b[a-z]/g, function(a){return a.toUpperCase();}); //o parametro 'a' já é o achado pela expressão regular
+    //  /b[a-z]/ pega a primeira letra de a-z da palavra    o parametro 'a' já é o achado pela expressão regular
+    return s.toLowerCase().replace(/\b[a-z]/g, function(a){ return a.toUpperCase(); });
 };
 
 
-console.log (capitalize('th-is IS THE wOrst string eVeR'));
-console.log (capitalize_('th-is IS THE wOrst string eVeR'));
+console.log (capitalize('this IS THE wOrst string eVeR'));
+console.log (capitalize_('this IS THE wOrst string eVeR'));
+
 
 
 

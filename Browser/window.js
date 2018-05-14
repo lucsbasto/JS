@@ -1,18 +1,10 @@
 (function(win, doc){
     'use strict';
-    // var name = prompt('Qual o seu nome ?'); // mostra a mensagem e uma caixa de texto
-    // alert(`Olá, ${name} !`);
-    // var del = confirm("Deseja deletar ?"); // só mostra a mensagem e os botões de cancelar e ok
-    // if (del){
-    //     console.log('Deletado com sucesso !');
-    // }
-    // else{
-    //     console.log('Ação cancelada !');
-    // }
+    //querySelector e querySelectorAll são estáticos
+    var $input = doc.querySelectorAll('.input') ; //boa pratica iniciar variáveis do doc com $
+    var $button = doc.querySelector('#button'); //chama o atributo como no css
 
-    console.log(doc.getElementById('link')); //quando for preciso pegar elementos a partir do id
-    console.log(doc.getElementsByClassName('links')); // quando for preciso pegar elementos a partir da classe
-    console.log(doc.getElementsByTagName('p'));
-
+    console.log(`Usando o querySelectorAll() ele pega todos os que tiver o atributo, no caso a classe input ${$input}`);
+    console.log(`Usando o querySelector() ele pega somente a primeira aparição do atributo, no caso o id ${button}`);
 
 })(window, document);

@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Curso de JS !</title>
+    <meta charset="utf-8" />
+    <title>Challenge 20</title>
+    <style>
+        body { font-family: sans-serif }
+        label { display: block }
+        input { margin-bottom: 10px }
+    </style>
 </head>
 <body>
-    <form action="/" method="get">
-        <input type="text" name="username" class="input">
-        <input type="password" name="password" class="input">
-        <button type="submit" name="button" id="button" class="button">Enviar</button>
-    </form>
-    <script src="window.js"></script>
+<form action="." method="get">
+    <div>
+        <label>Nome:</label>
+        <input type="text" />
+    </div>
+
+    <div>
+        <label>E-mail:</label>
+        <input type="email" />
+    </div>
+
+    <div>
+        <label>Mensagem</label>
+        <textarea cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <button type="submit">Enviar</button>
+    </div>
+</form>
+
+<script src="challenge-20.js"></script>
 </body>
 </html>

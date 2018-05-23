@@ -7,13 +7,13 @@
         }
         setTimeout(time(), 1000);
     }
-
-    function time(){
-        console.log(`counter ${counter++}`);
-        if(counter > 10){
-            return;
-        }
-    }
+    time();
+    // function time(){
+    //     console.log(`counter ${counter++}`);
+    //     if(counter > 10){
+    //         return;
+    //     }
+    // }
     //setInterval(time, 1000);
 })(window, document);
 

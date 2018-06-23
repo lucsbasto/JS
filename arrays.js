@@ -1,6 +1,6 @@
 var arr = [1, 2, 3, 4];
 console.log(arr.concat(5)); //cria e retorna um array temporario com o parametro adicionado sem modificar o array principal
-arr.push(6);//adiciona o parametro no array principal
+arr.push();//adiciona o parametro no array principal
 
 arr.unshift('x');//adiciona o parametro no começo do array
 arr.shift();//remove e retorna o primeiro item;
